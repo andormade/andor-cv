@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/andormade/cv/issues"
   },
-  "homepage": "https://github.com/andormade/cv#readme"
+  "homepage": "https://github.com/andormade/cv#readme",
+  "dependencies": {
+    "jss": "^9.3.1"
+  }
 }

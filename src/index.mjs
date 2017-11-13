@@ -1,5 +1,12 @@
 import fs from 'fs';
-import cv from '../data/cv.json';
+import CVdata from '../data/cv.json';
+import jss from 'jss';
+
+const sheet = jss.default.createStyleSheet({
+	'title' : {
+		'color': '#996633'
+	}
+});
 
 const renderPositions = cv => cv.positions.map(position => `
 	<li>
@@ -24,13 +31,16 @@ const renderSocialLinks = cv => cv.socialLinks.map(link => `
 	</li>
 `).join('');
 
+const {classes} = sheet;
+
 const renderTemplate = cv => `
 	<!DOCTYPE>
 	<html>
 		<head>
+			<style>${sheet.toString()}</style>
 		</head>
 		<body>
-			<h1>${cv.name}</h1>
+			<h1 class="${classes.title}">${cv.name}</h1>
 			<h2>Experience</h2>
 			<ul>
 				${renderPositions(cv)}
@@ -47,4 +57,4 @@ const renderTemplate = cv => `
 	</html>
 `;
 
-fs.writeFileSync("./cv-andor-polgar.html", renderTemplate(cv));
+fs.writeFileSync("./cv-andor-polgar.html", renderTemplate(CVdata));
