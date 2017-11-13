@@ -1,0 +1,133 @@
+{
+	"name": "Andor Polgar",
+	"summary": "",
+	"birthDate": "1991-09-17",
+	"nationalities": [
+		"Hungarian",
+		"EU citizen",
+	],
+	"website": "http://andor.cool",
+	"location": "Amsterdam, Netherlands",
+	"positions": [
+		{
+			"company": "Docler Holding Amsterdam",
+			"location": "Amsterdam, Netherlands",
+			"jobTitle": "Senior Front-end Developer",
+			"descriptipn": "I joined Docler in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. They trusted me with deployment rights for their multi-billion dollar streaming platform. I'm currently helping to establish the mobile development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin.",
+			"startDate": "2017-03-01",
+			"endDate": null,
+			"keywords": [
+				"React", "Redux", "BackboneJS", "NodeJS", "scrum team",
+				"mentoring", "interviewing", "24/7 on-call duty",
+				"high availability system", "continuous integration",
+				"progressive web application", "component based architecture",
+				"functional programming", "application shell architecture",
+				"HTTP Live Stream", "WebRTC", "JavaScript", "Sass"
+			]
+		},
+		{
+			"company": "Docler Media",
+			"location": "Los Angeles, California, United States",
+			"jobTitle": "Senior Front-end Developer",
+			"descriptipn": "I was helping to establish a strong front-end team in the overseas branch of the company.",
+			"startDate": "2016-07-01",
+			"endDate": "2017-03-01",
+			"keywords": [
+				"BackboneJS", "NodeJS", "scrum team", "mentoring",
+				"interviewing", "24/7 on-call duty", "high availability system",
+				"continuous integration", "MVC", "OOP", "HTTP Live Stream",
+				"WebRTC", "JavaScript", "Sass"
+			]
+		},
+		{
+			"company": "Docler Holding Luxembourg",
+			"location": "Luxembourg, Luxembourg",
+			"jobTitle": "TV & Mobile Front-end Specialist",
+			"descriptipn": "I was working on rebuilding the mobile web application for LiveJasmin, which is the company's flagship product.",
+			"startDate": "2013-11-01",
+			"endDate": "2016-07-01",
+			"keywords": [
+				"BackboneJS", "NodeJS", "scrum team", "TypeScript", "Haxe",
+				"ExtJS", "mentoring", "interviewing", "24/7 on-call duty",
+				"high availability system", "continuous integration",
+				"MVC", "OOP", "HTTP Live Stream", "JavaScript", "Sass"
+			]
+		},
+		{
+			"company": "Docler Holding Budapest",
+			"location": "Budapest, Hungary",
+			"jobTitle": "Junior TV & Mobile Front-end Developer",
+			"descriptipn": "I was assigned to maintain the mobile web application of LiveJasmin, which is the company's flagship product.",
+		 	"startDate": "2013-03-01",
+			"endDate": "2013-11-01",
+			"keywords": [
+				"BackboneJS", "NodeJS", "TypeScript", "jQuery",
+				"high availability system", "MVC", "OOP", "HTTP Live Stream",
+				"JavaScript",
+			]
+		}
+	],
+	"education": [
+		{
+			"school": "Budapest University of Technology and Economics",
+			"degree": "BSc",
+			"fieldOfStudy": "Software Engineering",
+			"startDate": "2010-09-01",
+			"endDate": "2013-11-01"
+		}
+	],
+	"willingnesToRelocate": {
+		"locations": [
+			"Berlin, Germany",
+			"California, United States",
+			"Barcelona, Spain",
+			"Cyprus",
+			"Malta",
+			"Lisbon, Portugal",
+			"Gibraltar",
+			"Hong Kong",
+			"London, England",
+			"Dublin, Ireland"
+		]
+	},
+	"idealPositions" : [
+		{
+			"jobTitle": "Senior Front-end Developer",
+			"fullTime": true,
+			"remote": true,
+		},
+		{
+			"jobTitle": "Front-end Architect",
+			"fullTime": true,
+			"remote": true,
+		},
+		{
+			"jobTitle": "Engineering Manager",
+			"fullTime": true,
+			"remote": true,
+		}
+	],
+	"socialLinks": [
+		{
+			"title": "LinkedIn",
+			"url": "https://linkedin.com/in/andormade"
+		},
+		{
+			"title": "GitHub",
+			"url": "https://github.com/in/andormade"
+		},
+		{
+			"title": "Facebook",
+			"url": "https://facebook.com/andormade"
+		},
+		{
+			"title": "Instagram",
+			"url": "https://instagram.com/andorgram"
+		}
+	],
+	"hobbies": [
+		"photography",
+		"modular synthesizers",
+		"programming"
+	]
+}
