@@ -1,0 +1,19 @@
+{
+  "name": "cv",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node --experimental-modules ./src/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andormade/cv.git"
+  },
+  "author": "Andor Polgar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andormade/cv/issues"
+  },
+  "homepage": "https://github.com/andormade/cv#readme"
+}
