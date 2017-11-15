@@ -1,4 +1,5 @@
 import style from './style.mjs';
+import fs from 'fs';
 
 const renderPositions = cv => cv.positions.map(position => `
 	<li>
@@ -31,7 +32,8 @@ export default cv => `
 		<head>
 			<style>${style.toString()}</style>
 		</head>
-		<body>
+		<body class="${classes.page}">
+			<img src="data:image/jpg;base64,${fs.readFileSync('./src/assets/andor_cv_photo.jpg', 'base64')}" />
 			<h1 class="${classes.title}">${cv.name}</h1>
 			<h2>Experience</h2>
 			<ul>
