@@ -2,10 +2,8 @@
   "name": "cv",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "generate": "node --experimental-modules ./src/index.mjs"
-  },
+  "main": "src/index.js",
+  "bin": "bin/andor-cv.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andormade/cv.git"
@@ -17,6 +15,8 @@
   },
   "homepage": "https://github.com/andormade/cv#readme",
   "dependencies": {
+    "commander": "^2.11.0",
+    "html-pdf": "^2.2.0",
     "jss": "^9.3.1"
   }
 }

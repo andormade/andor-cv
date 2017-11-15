@@ -1,5 +1,5 @@
-import style from './style.mjs';
-import fs from 'fs';
+const style = require('./style.js');
+const fs = require('fs');
 
 const renderPositions = cv => cv.positions.map(position => `
 	<li>
@@ -26,7 +26,7 @@ const renderSocialLinks = cv => cv.socialLinks.map(link => `
 
 const {classes} = style;
 
-export default cv => `
+module.exports = cv => `
 	<!DOCTYPE>
 	<html>
 		<head>

@@ -1,7 +1,7 @@
-import jss from 'jss';
-import fs from 'fs';
+const jss = require('jss'),
+	fs = require('fs');
 
-export default jss.default.createStyleSheet({
+module.exports = jss.default.createStyleSheet({
 	'@font-face' : {
 		'font-family' : 'Open Sans',
 		'src'         : 'url(' + 'data:application/font-sfnt;base64,' + fs.readFileSync('./src/assets/OpenSans-Regular.ttf', 'base64') +  ')'
