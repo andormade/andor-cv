@@ -4,6 +4,7 @@ const fs = require('fs');
 const renderPositions = cv => cv.positions.map(position => `
 	<li>
 		<h3>${position.company}</h3>
+		<img src="data:image/jpg;base64,${fs.readFileSync('./src/assets/' + position.logo, 'base64')}" />
 		<span>${position.location}</span>
 		<span>${position.jobTitle}</span>
 		<span>${position.description}</span>

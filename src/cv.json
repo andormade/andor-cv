@@ -1,5 +1,6 @@
 {
 	"name": "Andor Polgar",
+	"photo": "andor_cv_photo.jpg",
 	"summary": "",
 	"birthDate": "1991-09-17",
 	"nationalities": [
@@ -11,6 +12,7 @@
 	"positions": [
 		{
 			"company": "Docler Holding Amsterdam",
+			"logo": "docler_holding_logo.png",
 			"location": "Amsterdam, Netherlands",
 			"jobTitle": "Senior Front-end Developer",
 			"description": "I joined Docler in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. They trusted me with deployment rights for their multi-billion dollar streaming platform. I'm currently helping to establish the mobile development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin.",
@@ -27,6 +29,7 @@
 		},
 		{
 			"company": "Docler Media",
+			"logo": "docler_media_logo.png",
 			"location": "Los Angeles, California, United States",
 			"jobTitle": "Senior Front-end Developer",
 			"description": "I was helping to establish a strong front-end team in the overseas branch of the company.",
@@ -41,6 +44,7 @@
 		},
 		{
 			"company": "Docler Holding Luxembourg",
+			"logo": "docler_holding_logo.png",
 			"location": "Luxembourg, Luxembourg",
 			"jobTitle": "TV & Mobile Front-end Specialist",
 			"description": "I was working on rebuilding the mobile web application for LiveJasmin, which is the company's flagship product.",
@@ -55,6 +59,7 @@
 		},
 		{
 			"company": "Docler Holding Budapest",
+			"logo": "docler_holding_logo.png",
 			"location": "Budapest, Hungary",
 			"jobTitle": "Junior TV & Mobile Front-end Developer",
 			"description": "I was assigned to maintain the mobile web application of LiveJasmin, which is the company's flagship product.",
