@@ -1,10 +1,10 @@
-const style = require('./style.js');
-const fs = require('fs');
+const datauri = require('./datauri.js');
 
 const renderPositions = cv => cv.positions.map(position => `
 	<li>
+		<img src="${datauri('./src/assets/' + position.logo)}" />
 		<h3>${position.company}</h3>
-		<img src="data:image/jpg;base64,${fs.readFileSync('./src/assets/' + position.logo, 'base64')}" />
+		<span></span>
 		<span>${position.location}</span>
 		<span>${position.jobTitle}</span>
 		<span>${position.description}</span>
@@ -25,17 +25,21 @@ const renderSocialLinks = cv => cv.socialLinks.map(link => `
 	</li>
 `).join('');
 
-const {classes} = style;
-
 module.exports = cv => `
 	<!DOCTYPE>
 	<html>
 		<head>
-			<style>${style.toString()}</style>
+			<style>
+				@font-face {
+					font-family: Open Sans;
+					src: url(${datauri('./src/assets/OpenSans-Regular.ttf')})
+				}
+			</style>
+			<link rel="stylesheet" type="text/css" href="${datauri('./src/assets/style.css')}"/>
 		</head>
-		<body class="${classes.page}">
-			<img src="data:image/jpg;base64,${fs.readFileSync('./src/assets/andor_cv_photo.jpg', 'base64')}" />
-			<h1 class="${classes.title}">${cv.name}</h1>
+		<body>
+			<img src="${datauri('./src/assets/andor_cv_photo.jpg')}" />
+			<h1>${cv.name}</h1>
 			<h2>Experience</h2>
 			<ul>
 				${renderPositions(cv)}

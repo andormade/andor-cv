@@ -24,6 +24,7 @@ const options = {
 
 if (program.debug) {
 	fs.writeFileSync("./andor_polgar_cv.html", html);
+	return;
 }
 
 

@@ -17,6 +17,6 @@
   "dependencies": {
     "commander": "^2.11.0",
     "html-pdf": "^2.2.0",
-    "jss": "^9.3.1"
+    "mime": "^2.0.3"
   }
 }
