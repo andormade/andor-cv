@@ -16,8 +16,8 @@
 			"location": "Amsterdam, Netherlands",
 			"jobTitle": "Senior Front-end Developer",
 			"description": "I joined Docler in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. They trusted me with deployment rights for their multi-billion dollar streaming platform. I'm currently helping to establish the mobile development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin.",
-			"startDate": "2017-03-01",
-			"endDate": null,
+			"startDate": "March 2017",
+			"endDate": "January 2018",
 			"keywords": [
 				"React", "Redux", "BackboneJS", "NodeJS", "scrum team",
 				"mentoring", "interviewing", "24/7 on-call duty",
@@ -33,8 +33,8 @@
 			"location": "Los Angeles, California, United States",
 			"jobTitle": "Senior Front-end Developer",
 			"description": "I was helping to establish a strong front-end team in the overseas branch of the company.",
-			"startDate": "2016-07-01",
-			"endDate": "2017-03-01",
+			"startDate": "June 2016",
+			"endDate": "March 2017",
 			"keywords": [
 				"BackboneJS", "NodeJS", "scrum team", "mentoring",
 				"interviewing", "24/7 on-call duty", "high availability system",
@@ -48,8 +48,8 @@
 			"location": "Luxembourg, Luxembourg",
 			"jobTitle": "TV & Mobile Front-end Specialist",
 			"description": "I was working on rebuilding the mobile web application for LiveJasmin, which is the company's flagship product.",
-			"startDate": "2013-11-01",
-			"endDate": "2016-07-01",
+			"startDate": "November 2013",
+			"endDate": "June 2016",
 			"keywords": [
 				"BackboneJS", "NodeJS", "scrum team", "TypeScript", "Haxe",
 				"ExtJS", "mentoring", "interviewing", "24/7 on-call duty",
@@ -63,8 +63,8 @@
 			"location": "Budapest, Hungary",
 			"jobTitle": "Junior TV & Mobile Front-end Developer",
 			"description": "I was assigned to maintain the mobile web application of LiveJasmin, which is the company's flagship product.",
-			"startDate": "2013-03-01",
-			"endDate": "2013-11-01",
+			"startDate": "March 2013",
+			"endDate": "November 2013",
 			"keywords": [
 				"BackboneJS", "NodeJS", "TypeScript", "jQuery",
 				"high availability system", "MVC", "OOP", "HTTP Live Stream",

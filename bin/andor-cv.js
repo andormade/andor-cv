@@ -15,11 +15,12 @@ const options = {
 	format      : program.format,
 	orientation : program.orientation,
 	border      : {
-		top    : '1in',
-		right  : '0.5in',
-		bottom : '1in',
-		left   : '0.5in'
-	}
+		top    : '10mm',
+		right  : '10mm',
+		bottom : '10mm',
+		left   : '10mm'
+	},
+	zoomFactor : 1
 };
 
 if (program.debug) {
