@@ -1,11 +1,12 @@
 {
 	"name": "Andor Polgar",
 	"photo": "andor_cv_photo.jpg",
-	"summary": "",
+	"introduction": "I built my first website when I was 12 years old. I figured out HTML by experimenting and chagning the source code of other websites on the internet. My first big project was to take over the maintenance of my school's website when I was 14 years old. As a kid, I always wanted to be an embedded system developer, but to pay my tutiton and my living costs in Budapest, I had to start building websites for money. That's how I end up in the industry.",
 	"birthDate": "1991-09-17",
+	"phone": "+31 6 17 69 70 02",
 	"nationalities": [
-		"Hungarian",
-		"EU citizen"
+		"EU citizenship",
+		"Hungarian"
 	],
 	"website": "http://andor.cool",
 	"location": "Amsterdam, Netherlands",
@@ -18,13 +19,17 @@
 			"description": "I joined Docler in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. They trusted me with deployment rights for their multi-billion dollar streaming platform. I'm currently helping to establish the mobile development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin.",
 			"startDate": "March 2017",
 			"endDate": "January 2018",
-			"keywords": [
-				"React", "Redux", "BackboneJS", "NodeJS", "scrum team",
+			"responsibilites": [
 				"mentoring", "interviewing", "24/7 on-call duty",
-				"high availability system", "continuous integration",
+				"planning new features", "developing new features",
+				"depolying new features", "maintaining old features"
+			],
+			"technologies": [
+				"React", "Redux", "BackboneJS", "NodeJS", "HTTP Live Stream",
+				"WebRTC", "high availability system", "continuous integration",
 				"progressive web application", "component based architecture",
 				"functional programming", "application shell architecture",
-				"HTTP Live Stream", "WebRTC", "JavaScript", "Sass"
+				"JavaScript", "Sass", "HTML5", "CSS3", "Git"
 			]
 		},
 		{
@@ -35,11 +40,16 @@
 			"description": "I was helping to establish a strong front-end team in the overseas branch of the company.",
 			"startDate": "June 2016",
 			"endDate": "March 2017",
-			"keywords": [
+			"responsibilites": [
+				"mentoring", "interviewing", "24/7 on-call duty",
+				"developing new features", "planning new features",
+				"deploying new features", "maintaining old features"
+			],
+			"technologies": [
 				"BackboneJS", "NodeJS", "scrum team", "mentoring",
-				"interviewing", "24/7 on-call duty", "high availability system",
-				"continuous integration", "MVC", "OOP", "HTTP Live Stream",
-				"WebRTC", "JavaScript", "Sass"
+				"high availability system", "continuous integration", "MVC",
+				"OOP", "HTTP Live Stream", "WebRTC", "JavaScript", "Sass",
+				"CSS3", "HTML5", "Git"
 			]
 		},
 		{
@@ -50,11 +60,16 @@
 			"description": "I was working on rebuilding the mobile web application for LiveJasmin, which is the company's flagship product.",
 			"startDate": "November 2013",
 			"endDate": "June 2016",
-			"keywords": [
+			"responsibilites": [
+				"mentoring", "interviewing", "24/7 on-call duty",
+				"developing new features", "planning new features",
+				"deoplying new features", "maintaining old features"
+			],
+			"technologies": [
 				"BackboneJS", "NodeJS", "scrum team", "TypeScript", "Haxe",
-				"ExtJS", "mentoring", "interviewing", "24/7 on-call duty",
-				"high availability system", "continuous integration",
-				"MVC", "OOP", "HTTP Live Stream", "JavaScript", "Sass"
+				"ExtJS", "high availability system", "continuous integration",
+				"MVC", "OOP", "HTTP Live Stream", "JavaScript", "Sass",
+				"CSS3", "HTML5", "Git"
 			]
 		},
 		{
@@ -65,37 +80,38 @@
 			"description": "I was assigned to maintain the mobile web application of LiveJasmin, which is the company's flagship product.",
 			"startDate": "March 2013",
 			"endDate": "November 2013",
-			"keywords": [
+			"responsibilites": [
+				"developing new features", "maintaining old features"
+			],
+			"technologies": [
 				"BackboneJS", "NodeJS", "TypeScript", "jQuery",
 				"high availability system", "MVC", "OOP", "HTTP Live Stream",
-				"JavaScript"
+				"JavaScript", "CSS3", "HTML5", "Subversion"
 			]
 		}
 	],
 	"education": [
 		{
 			"school": "Budapest University of Technology and Economics",
-			"degree": "BSc",
+			"degree": "BSc (unfinished)",
 			"fieldOfStudy": "Software Engineering",
-			"startDate": "2010-09-01",
-			"endDate": "2013-11-01"
+			"startDate": "September 2010",
+			"endDate": "November 2013",
+			"logo": "bme_logo.png",
+			"completedCourses": [
+				"mathematical analysis", "digital logic design",
+				"software desgin", "linear algebra", "analog signal processing",
+				"physics", "data networks"
+			],
+			"location": "Budapest, Hungary"
 		}
 	],
-	"willingnesToRelocate": {
-		"locations": [
-			"Berlin, Germany",
-			"California, United States",
-			"Barcelona, Spain",
-			"Cyprus",
-			"Malta",
-			"Lisbon, Portugal",
-			"Gibraltar",
-			"Hong Kong",
-			"London, England",
-			"Dublin, Ireland"
-		]
-	},
-	"idealPositions" : [
+	"otherSkills": [
+		"WebGL", "OpenGL", "Unity", "GLSL", "PIC Assembly", "AVR Assembly", "C",
+		"C#", "C++", "Ruby", "Teletext", "Clojure", "Java", "Visual Basic",
+		"QBasic", "Commodore BASIC", "MySQL"
+	],
+	"idealPositions": [
 		{
 			"jobTitle": "Senior Front-end Developer",
 			"fullTime": true,
@@ -128,11 +144,41 @@
 		{
 			"title": "Instagram",
 			"url": "https://instagram.com/andorgram"
+		},
+		{
+			"title": "YouTube",
+			"url": ""
 		}
 	],
 	"hobbies": [
 		"photography",
 		"modular synthesizers",
 		"programming"
+	],
+	"faq": [
+		{
+			"q": "Would you like to relocate to another country?",
+			"a": "Actually, yes, please see the following list of locations I would consider to relocate to: Berlin, Germany, California, United States, Barcelona, Spain, Cyprus, Malta, Lisbon, Portugal, Gibraltar, Hong Kong, London, England, Dublin, Ireland"
+		},
+		{
+			"q": "Do you have permit to work in {X} EU country?",
+			"a": "Yes, I'm from Hungary, which is member of the European Union, I have European Citizenship."
+		},
+		{
+			"q": "How many years of experience do you have?",
+			"a": "I built my first website when I was 10 years old, I took over the maintanance of my school's website when I was 14 I have 7 years of professional experience, and 4 years of working in a corporate environment."
+		},
+		{
+			"q": "Do you have children?",
+			"a": "I don't have kids, and I'm not planning to."
+		},
+		{
+			"q": "How much do you know Java? / Would you take a Senior Java position?",
+			"a": "Although I used it at the university, wrote some quite complex applications, I wouldn't say I know Java. I consider myself a Java Script developer, which is a totally diferent thing. :("
+		},
+		{
+			"q": "How much time would you commit to work?",
+			"a": "1 hour max."
+		}
 	]
 }
