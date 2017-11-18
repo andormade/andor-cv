@@ -2,19 +2,30 @@ const datauri = require('./datauri.js');
 
 const renderPositions = cv => cv.positions.map(position => `
 	<li class="position">
-		<img class="position--image" src="${datauri('./src/assets/' + position.logo)}" />
-		<h3>${position.jobTitle}</h3>
-		<span>${position.company}</span><br />
-		<small>${position.startDate} - ${position.endDate}
-		&bull; ${position.location}</small>
-		<p>${position.description}</p>
+		<div class="dont-brake">
+			<img class="position--image" src="${datauri('./src/assets/' + position.logo)}" />
+			<h3>${position.jobTitle}</h3>
+			<span>${position.company}</span><br />
+			<small>${position.startDate} - ${position.endDate}
+			&bull; ${position.location}</small>
+			<p>${position.description}</p>
+		</div>
 		<p>Responsibilites: ${position.responsibilites.join(', ')}</p>
 		<p>Technolgies: ${position.technologies.join(', ')}</p>
 	</li>
 `).join('');
 
+const renderConferences = cv => cv.conferences.map(conference => `
+	<li class="conference dont-brake">
+		<img class="conference--logo" src="${datauri('./src/assets/' + conference.logo)}" />
+		<h3>${conference.title}</h3>
+		<small>${conference.date} &bull; ${conference.location}</small>
+		<p>${conference.summary}</p>
+	</li>
+`).join('');
+
 const renderSchools = cv => cv.education.map(school => `
-	<li class="school">
+	<li class="school dont-brake">
 		<img class="school--logo" src="${datauri('./src/assets/' + school.logo)}" />
 		<h3>${school.school}</h3>
 		<span>${school.fieldOfStudy} ${school.degree}</span><br />
@@ -25,14 +36,14 @@ const renderSchools = cv => cv.education.map(school => `
 `).join('');
 
 const renderFaq = cv => cv.faq.map(qa => `
-	<li class="school">
+	<li class="qa dont-break">
 		<h3>${qa.q}</h3>
 		<span>${qa.a}</span>
 	</li>
 `).join('');
 
 const renderSocialLinks = cv => cv.socialLinks.map(link => `
-	<li>
+	<li class="dont-break">
 		${link.title}: <a href="${link.url}" target="_blank">${link.url}</a>
 	</li>
 `).join('');
@@ -59,8 +70,12 @@ module.exports = cv => `
 			<br />Nationalities: ${cv.nationalities.join(', ')}</span>
 			<p>${cv.introduction}</p>
 			<h2>Professional experience</h2>
-			<ul>
+			<ul class="positions">
 				${renderPositions(cv)}
+			</ul>
+			<h2>Conferences</h2>
+			<ul class="conferences">
+				${renderConferences(cv)}
 			</ul>
 			<h2>Education</h2>
 			<ul>
@@ -74,6 +89,10 @@ module.exports = cv => `
 			<ul>
 				${renderFaq(cv)}
 			</ul>
+			<h2>Other skills</h2>
+			<p>${cv.otherSkills.join(', ')}</p>
+			<h2>Hobbies</h2>
+			<p>${cv.hobbies.join(', ')}</p>
 		</body>
 	</html>
 `;

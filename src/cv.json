@@ -1,7 +1,7 @@
 {
 	"name": "Andor Polgar",
 	"photo": "andor_cv_photo.jpg",
-	"introduction": "I built my first website when I was 12 years old. I figured out HTML by experimenting and chagning the source code of other websites on the internet. My first big project was to take over the maintenance of my school's website when I was 14 years old. As a kid, I always wanted to be an embedded system developer, but to pay my tutiton and my living costs in Budapest, I had to start building websites for money. That's how I end up in the industry.",
+	"introduction": "I built my first website when I was 12 years old. I figured out HTML by experimenting and changing the source code of other websites on the internet. My first big thing was to take over the maintenance of my school's website when I was 14 years old. As a kid, I always wanted to be an embedded system developer, but to pay my tutiton and my living costs in Budapest, I had to start building websites for money. - That's how I ended up in the industry.",
 	"birthDate": "1991-09-17",
 	"phone": "+31 6 17 69 70 02",
 	"nationalities": [
@@ -16,7 +16,7 @@
 			"logo": "docler_holding_logo.png",
 			"location": "Amsterdam, Netherlands",
 			"jobTitle": "Senior Front-end Developer",
-			"description": "I joined Docler in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. They trusted me with deployment rights for their multi-billion dollar streaming platform. I'm currently helping to establish the mobile development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin.",
+			"description": "I joined Docler in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. They trusted me with deployment rights for their multi-billion dollar streaming platform. I'm currently helping to establish a development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin.",
 			"startDate": "March 2017",
 			"endDate": "January 2018",
 			"responsibilites": [
@@ -26,10 +26,13 @@
 			],
 			"technologies": [
 				"React", "Redux", "BackboneJS", "NodeJS", "HTTP Live Stream",
-				"WebRTC", "high availability system", "continuous integration",
-				"progressive web application", "component based architecture",
+				"Web Real-Time Communication (WebRTC)",
+				"high availability system", "continuous integration",
+				"progressive web application (PWA)",
+				"single page application (SPA)", "component based architecture",
 				"functional programming", "application shell architecture",
-				"JavaScript", "Sass", "HTML5", "CSS3", "Git"
+				"JavaScript", "Sass", "HTML5", "CSS3", "Git", "Webpack",
+				"ECMAScript 2015 (6th edition)", "ECMAScript 2016 (7th edition)"
 			]
 		},
 		{
@@ -46,10 +49,13 @@
 				"deploying new features", "maintaining old features"
 			],
 			"technologies": [
-				"BackboneJS", "NodeJS", "scrum team", "mentoring",
+				"BackboneJS", "NodeJS", "scrum team", "Haxe",
 				"high availability system", "continuous integration", "MVC",
-				"OOP", "HTTP Live Stream", "WebRTC", "JavaScript", "Sass",
-				"CSS3", "HTML5", "Git"
+				"Object-oriented Programming (OOP)",
+				"HTTP Live Stream (HLS)", "Grunt", "Gulp",
+				"Web Real-Time Communication (WebRTC)",
+				"JavaScript", "Sass", "CSS3", "HTML5", "Git",
+				"ECMAScript 2015 (6th edition)"
 			]
 		},
 		{
@@ -57,7 +63,7 @@
 			"logo": "docler_holding_logo.png",
 			"location": "Luxembourg, Luxembourg",
 			"jobTitle": "TV & Mobile Front-end Specialist",
-			"description": "I was working on rebuilding the mobile web application for LiveJasmin, which is the company's flagship product.",
+			"description": "After the company relocated me to Luxembourg, I took a key role in rebuilding the mobile web application for LiveJasmin, which is the company's flagship product.",
 			"startDate": "November 2013",
 			"endDate": "June 2016",
 			"responsibilites": [
@@ -66,10 +72,13 @@
 				"deoplying new features", "maintaining old features"
 			],
 			"technologies": [
-				"BackboneJS", "NodeJS", "scrum team", "TypeScript", "Haxe",
-				"ExtJS", "high availability system", "continuous integration",
-				"MVC", "OOP", "HTTP Live Stream", "JavaScript", "Sass",
-				"CSS3", "HTML5", "Git"
+				"BackboneJS", "NodeJS", "TypeScript", "Haxe", "ExtJS",
+				"Dynamic Adaptive Streaming over HTTP (DASH)",
+				"Test Driven Development (TDD)", "high availability system",
+				"WebSocket", "continuous integration", "MVC", "Mocha",
+				"jsdom", "Object Oriented Programming (OOP)", "Grunt", "Gulp",
+				"HTTP Live Stream (HLS)", "JavaScript", "Sass", "CSS3",
+				"HTML5", "Git", "ECMAScript 2015 (6th edition)"
 			]
 		},
 		{
@@ -84,10 +93,39 @@
 				"developing new features", "maintaining old features"
 			],
 			"technologies": [
-				"BackboneJS", "NodeJS", "TypeScript", "jQuery",
-				"high availability system", "MVC", "OOP", "HTTP Live Stream",
+				"BackboneJS", "NodeJS", "TypeScript", "jQuery", "WebScoket",
+				"high availability system", "MVC",
+				"Object-oriented Programming OOP", "HTTP Live Stream (HLS)",
 				"JavaScript", "CSS3", "HTML5", "Subversion"
 			]
+		},
+		{
+			"company": "Self employed",
+			"logo": "andor_freelancer.jpg",
+			"location": "Budapest, Hungary",
+			"jobTitle": "Full-stack webdeveloper",
+			"description": "I advertised myself as freelance web developer to pay my tuition fees. I worked with hungarian companies mostly, I built smaller websites, landing pages for advertising campaigns, Drupal and Wordpress blog themes.",
+			"startDate": "September 2010",
+			"endDate": "November 2013",
+			"responsibilites": [
+				"bulilding websites", "designing websites",
+				"contacting with clients", "anger management"
+			],
+			"technologies": [
+				"jQuery", "NodeJS", "WebScoket", "MVC", "PHP5", "Facebook API",
+				"Google Maps API", "Wordpress", "Drupal", "JavaScript", "CSS3",
+				"HTML5", "Git", "Joomla"
+			]
+		}
+	],
+	"conferences": [
+		{
+			"conference": "JSconf",
+			"location": "Budapest, Hungary",
+			"logo": "jsconf_logo.svg",
+			"date": "May 10, 2016",
+			"title": "Composing music with JavaScript (Workshop @JSConfBp)",
+			"summary": "Organized a workshop around the WebMIDI API. Docler Holding sponsored it by providing a Ploytec PL-2 USB MIDI synthesizer for each attendee."
 		}
 	],
 	"education": [
@@ -101,7 +139,8 @@
 			"completedCourses": [
 				"mathematical analysis", "digital logic design",
 				"software desgin", "linear algebra", "analog signal processing",
-				"physics", "data networks"
+				"physics", "data networks",
+				"Programming languages: C, C++, Java, AVR Assembly, Ruby"
 			],
 			"location": "Budapest, Hungary"
 		}
@@ -109,7 +148,9 @@
 	"otherSkills": [
 		"WebGL", "OpenGL", "Unity", "GLSL", "PIC Assembly", "AVR Assembly", "C",
 		"C#", "C++", "Ruby", "Teletext", "Clojure", "Java", "Visual Basic",
-		"QBasic", "Commodore BASIC", "MySQL"
+		"QBasic", "Commodore BASIC", "MySQL", "ECMAScript 2017 (8th edition)",
+		"Arduino", "Objective C", "Core Audio", "Photoshop", "Final Cut Pro X",
+		"Digital Signal Processing (DSP)", "WebMIDI"
 	],
 	"idealPositions": [
 		{
@@ -135,7 +176,7 @@
 		},
 		{
 			"title": "GitHub",
-			"url": "https://github.com/in/andormade"
+			"url": "https://github.com/andormade"
 		},
 		{
 			"title": "Facebook",
@@ -147,26 +188,31 @@
 		},
 		{
 			"title": "YouTube",
-			"url": ""
+			"url": "https://youtube.com/hngrhorace"
 		}
 	],
 	"hobbies": [
 		"photography",
+		"old lenses",
+		"cinematography",
 		"modular synthesizers",
-		"programming"
+		"programming",
+		"building things",
+		"modern art",
+		"teletext"
 	],
 	"faq": [
 		{
-			"q": "Would you like to relocate to another country?",
-			"a": "Actually, yes, please see the following list of locations I would consider to relocate to: Berlin, Germany, California, United States, Barcelona, Spain, Cyprus, Malta, Lisbon, Portugal, Gibraltar, Hong Kong, London, England, Dublin, Ireland"
+			"q": "Are you open to relocation?",
+			"a": "Actually, yes, please see the following list of locations I would consider to relocate to: Berlin, Germany; California, United States; Barcelona, Spain; Cyprus; Malta; Lisbon, Portugal; Gibraltar; Hong Kong; London, England; Dublin, Ireland"
 		},
 		{
 			"q": "Do you have permit to work in {X} EU country?",
-			"a": "Yes, I'm from Hungary, which is member of the European Union, I have European Citizenship."
+			"a": "Yes, I'm from Hungary which is member of the European Union."
 		},
 		{
 			"q": "How many years of experience do you have?",
-			"a": "I built my first website when I was 10 years old, I took over the maintanance of my school's website when I was 14 I have 7 years of professional experience, and 4 years of working in a corporate environment."
+			"a": "I have more than 7 years of professional experience, with more than 4 years of working in corporate environment."
 		},
 		{
 			"q": "Do you have children?",
@@ -174,10 +220,10 @@
 		},
 		{
 			"q": "How much do you know Java? / Would you take a Senior Java position?",
-			"a": "Although I used it at the university, wrote some quite complex applications, I wouldn't say I know Java. I consider myself a Java Script developer, which is a totally diferent thing. :("
+			"a": "Although I used it at the university, wrote some quite complex applications, I wouldn't say I know Java. I consider myself a Java Script developer, which is a totally different thing. :("
 		},
 		{
-			"q": "How much time would you commit to work?",
+			"q": "How long of a commute for work is too long for you?",
 			"a": "1 hour max."
 		}
 	]
