@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "6"
+install:
+  - npm install
+script:
+  - andor-cv
+cache:
+  directories:
+    - "node_modules"
+deploy:
+  provider: releases
+  api_key:
+    secure: 2CxBE9AdnNvTMxzh+tyEnx5qXJHlg1NUPGX3aPt8C1YkZCgb/tLYFV9NRceQp8vLFSlwS03VxSicpWjLaCnKBaBJzV6aoKy83WYuviAVzbF2RqABQ1cMDA3uRxGaRvstqrVS1hfPj1Wrw1awj/Y5r9kqjOWGTnnAXPlyiSnFP0LKRI/F+VoVk6qLhEg+74mhKZEK6pavg/JQX3Usumh+ErxGvdK2wuRGMpOtQPIdiMrYNn2bR5PI6wMKPKmf6uByd3uCv+//EC+gV5A2O4x6dXLqr9imMPGm3cW3813A4/ow0aTO48fwnnLhClspuFxs7ZF4MXDs17mUXYXChhvhcxzEByss+1F+rnUoSMMcVf/F+lij8mwTlsc9n/2kCwsCZuGRRyoV6FmtAvVKntdsnHWe1weSrJR3FyOiNq2owr0XaLO0s5yh3O4fFqQ3QzZLwIfbd9/euZXU+wAm0dLooMgPs9gGU4C+eEIohvrKu4uX9IqU82HoujDC0bQd4skRrtbc5+d8uYayios7v+r5UoBTrPQQDp+fUEL8cFOKMVzpVngMHwEF8lZhsjjF+fQU50yOUoFq0QSvq4Hp/qKIP63173yIdOLMPFPKr2wkibC3JhFDSH5EXKAoetVCCfRc/DiANYHdTm6AQvJeSvMupw/t8oIJRUNTZz7cWDtNSlw=
+  file: andor_polgar_cv.pdf
+  skip_cleanup: true
+  on:
+    tags: true
