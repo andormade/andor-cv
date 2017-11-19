@@ -35,6 +35,12 @@ const renderSchools = cv => cv.education.map(school => `
 	</li>
 `).join('');
 
+const renderLanguages = cv => cv.languages.map(language => `
+	<li class="qa dont-break">
+		<span>${language.language}: ${language.level}</span>
+	</li>
+`).join('');
+
 const renderFaq = cv => cv.faq.map(qa => `
 	<li class="qa dont-break">
 		<h3>${qa.q}</h3>
@@ -42,8 +48,12 @@ const renderFaq = cv => cv.faq.map(qa => `
 	</li>
 `).join('');
 
+const renderImportantThings = cv => cv.mostImportantThings.map(thing => `
+	<li class="dont-break">${thing}</li>
+`).join('');
+
 const renderSocialLinks = cv => cv.socialLinks.map(link => `
-	<li class="dont-break">
+	<li>
 		${link.title}: <a href="${link.url}" target="_blank">${link.url}</a>
 	</li>
 `).join('');
@@ -67,8 +77,12 @@ module.exports = cv => `
 			<br />Website: <a href="${cv.website}">${cv.website}</a>
 			<br />Location: ${cv.location}
 			<br />Phone: ${cv.phone}
-			<br />Nationalities: ${cv.nationalities.join(', ')}</span>
+			<br />Nationalities: ${cv.nationalities.join(', ')}
 			<p>${cv.introduction}</p>
+			<h2>Most important things about me</h2>
+			<ul>
+				${renderImportantThings(cv)}
+			</ul>
 			<h2>Professional experience</h2>
 			<ul class="positions">
 				${renderPositions(cv)}
@@ -78,12 +92,16 @@ module.exports = cv => `
 				${renderConferences(cv)}
 			</ul>
 			<h2>Education</h2>
-			<ul>
+			<ul class="schools">
 				${renderSchools(cv)}
 			</ul>
 			<h2>Social links</h2>
-			<ul>
+			<ul class="dont-break">
 				${renderSocialLinks(cv)}
+			</ul>
+			<h2>Languages</h2>
+			<ul>
+				${renderLanguages(cv)}
 			</ul>
 			<h2>Frequently Asked Questions</h2>
 			<ul>
@@ -91,8 +109,11 @@ module.exports = cv => `
 			</ul>
 			<h2>Other skills</h2>
 			<p>${cv.otherSkills.join(', ')}</p>
-			<h2>Hobbies</h2>
+			<h2>Hobbies and Interests</h2>
 			<p>${cv.hobbies.join(', ')}</p>
+			<p class="center">This CV was generated with JavaScript.
+			<br />Source code: <a href="https://github.com/andormade/andor-cv">https://github.com/andormade/andor-cv</a>
+			<br />Last update: ${new Date().toUTCString()}</p>
 		</body>
 	</html>
 `;

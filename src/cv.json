@@ -8,15 +8,39 @@
 		"EU citizenship",
 		"Hungarian"
 	],
+	"languages": [
+
+		{
+			"language": "English",
+			"level": "Professional working proficiency"
+		},
+		{
+			"language": "German",
+			"level": "Limited working proficiency"
+		},
+		{
+			"language": "Hungarian",
+			"level": "Native or bilingual proficiency"
+		}
+	],
 	"website": "http://andor.cool",
 	"location": "Amsterdam, Netherlands",
+	"mostImportantThings": [
+		"I have 7 years of professional experience working as a web developer",
+		"More than 4 years of experience working with a high availability system",
+		"I had been trusted with deployment rights on a multi-billion dollar streaming platform",
+		"I have 4 years of experience in optimizing websites for low-end devices",
+		"I interviewed more than 50 developers for senior and medior positions",
+		"I have more than 10 years of experience programming in JavaScript",
+		"Worked in 4 countries in multicultural environments: Hungary, Luxembourg, United States, Netherlands"
+	],
 	"positions": [
 		{
 			"company": "Docler Holding Amsterdam",
 			"logo": "docler_holding_logo.png",
 			"location": "Amsterdam, Netherlands",
 			"jobTitle": "Senior Front-end Developer",
-			"description": "I joined Docler in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. They trusted me with deployment rights for their multi-billion dollar streaming platform. I'm currently helping to establish a development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin.",
+			"description": "I joined Docler in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. I'm currently helping to establish a development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin.",
 			"startDate": "March 2017",
 			"endDate": "January 2018",
 			"responsibilites": [
@@ -114,7 +138,7 @@
 			"technologies": [
 				"jQuery", "NodeJS", "WebScoket", "MVC", "PHP5", "Facebook API",
 				"Google Maps API", "Wordpress", "Drupal", "JavaScript", "CSS3",
-				"HTML5", "Git", "Joomla"
+				"HTML5", "Git", "Joomla", "MySQL"
 			]
 		}
 	],
@@ -124,7 +148,7 @@
 			"location": "Budapest, Hungary",
 			"logo": "jsconf_logo.svg",
 			"date": "May 10, 2016",
-			"title": "Composing music with JavaScript (Workshop @JSConfBp)",
+			"title": "Composing music with JavaScript (Workshop @JSConf)",
 			"summary": "Organized a workshop around the WebMIDI API. Docler Holding sponsored it by providing a Ploytec PL-2 USB MIDI synthesizer for each attendee."
 		}
 	],
@@ -148,7 +172,7 @@
 	"otherSkills": [
 		"WebGL", "OpenGL", "Unity", "GLSL", "PIC Assembly", "AVR Assembly", "C",
 		"C#", "C++", "Ruby", "Teletext", "Clojure", "Java", "Visual Basic",
-		"QBasic", "Commodore BASIC", "MySQL", "ECMAScript 2017 (8th edition)",
+		"QBasic", "Commodore BASIC", "ECMAScript 2017 (8th edition)",
 		"Arduino", "Objective C", "Core Audio", "Photoshop", "Final Cut Pro X",
 		"Digital Signal Processing (DSP)", "WebMIDI"
 	],

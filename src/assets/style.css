@@ -1,20 +1,16 @@
+html {
+	font-size: 80%;
+}
+
 body {
 	font-family: Open Sans;
-	font-size: 62.5%;
 	line-height: 1.5rem;
 	margin: 0;
 	padding: 0;
 }
 
-span {
-	page-break-inside: avoid;
-	font-size: 1rem;
-}
-
 small {
-	page-break-inside: avoid;
 	color: #666666;
-	font-size: 1rem;
 }
 
 p {
@@ -78,4 +74,8 @@ p, ul, li, h3, span, small, strong {
 
 .dont-brake {
 	page-break-inside: avoid;
+}
+
+.center {
+	text-align: center;
 }

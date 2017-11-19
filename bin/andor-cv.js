@@ -12,13 +12,13 @@ program
 	.parse(process.argv);
 
 const options = {
-	format      : program.format,
+	format : program.format,
 	orientation : program.orientation,
-	border      : {
-		top    : '10mm',
-		right  : '10mm',
+	border : {
+		top : '10mm',
+		right : '10mm',
 		bottom : '10mm',
-		left   : '10mm'
+		left : '10mm'
 	},
 	zoomFactor : 1
 };
