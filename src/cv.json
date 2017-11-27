@@ -1,7 +1,7 @@
 {
 	"name": "Andor Polgar",
 	"photo": "andor_cv_photo.jpg",
-	"introduction": "I built my first website when I was 12 years old. I figured out HTML by experimenting and changing the source code of other websites on the internet. My first big thing was to take over the maintenance of my school's website when I was 14 years old. As a kid, I always wanted to be an embedded system developer, but to pay my tutiton and my living costs in Budapest, I had to start building websites for money. - That's how I ended up in the industry.",
+	"introduction": "I built my first website when I was 12 years old. I figured out HTML by experimenting and changing the source code of other websites on the internet. My first big thing was to take over the maintenance of my school's website when I was 14 years old. As a kid, I always wanted to be an embedded system developer, but to pay my tutiton and my living costs in Budapest, I had to start building websites for money. - That's how I ended up in the industry, and I have never regretted it. :)",
 	"birthDate": "1991-09-17",
 	"phone": "+31 6 17 69 70 02",
 	"nationalities": [
@@ -40,13 +40,14 @@
 			"logo": "docler_holding_logo.png",
 			"location": "Amsterdam, Netherlands",
 			"jobTitle": "Senior Front-end Developer",
-			"description": "I joined Docler in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. I'm currently helping to establish a development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin.",
+			"description": "Docler Holding is the owner of the internet's first and most profitable live streaming website: LiveJasmin.com (Warning: nudity and sexually explicit images.) I joined the company in 2013 as a TV & Mobile Frontend Developer in Budapest. Since that time, I have worked in the Luxembourg, Los Angeles and now Amsterdam offices in progressively higher roles. I'm currently helping to establish a development team here in the Amsterdam branch, interviewing senior front-end developers, mentoring newcomers and looking for potential team members who are willing to help us with rebuilding the mobile web application of LiveJasmin. Since we're banned from all the major application stores, our biggest challenge is to provide an app-like experience in the mobile browsers.",
 			"startDate": "March 2017",
 			"endDate": "January 2018",
 			"responsibilites": [
 				"mentoring", "interviewing", "24/7 on-call duty",
 				"planning new features", "developing new features",
-				"depolying new features", "maintaining old features"
+				"depolying new features", "maintaining old features",
+				"doing code reviews"
 			],
 			"technologies": [
 				"React", "Redux", "BackboneJS", "NodeJS", "HTTP Live Stream",
@@ -70,7 +71,8 @@
 			"responsibilites": [
 				"mentoring", "interviewing", "24/7 on-call duty",
 				"developing new features", "planning new features",
-				"deploying new features", "maintaining old features"
+				"deploying new features", "maintaining old features",
+				"doing code reviews"
 			],
 			"technologies": [
 				"BackboneJS", "NodeJS", "scrum team", "Haxe",
@@ -93,7 +95,8 @@
 			"responsibilites": [
 				"mentoring", "interviewing", "24/7 on-call duty",
 				"developing new features", "planning new features",
-				"deoplying new features", "maintaining old features"
+				"deoplying new features", "maintaining old features",
+				"doing code reviews"
 			],
 			"technologies": [
 				"BackboneJS", "NodeJS", "TypeScript", "Haxe", "ExtJS",
